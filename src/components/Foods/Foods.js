@@ -47,6 +47,11 @@ const Foods = () => {
               .filter((food) => food.category === "lunch")
               .map((food) => <SingleFood key={food.id} food={food} />)}
       </div>
+      <div style={{ margin: "4rem 0", textAlign: "center" }}>
+        <button className="btn-primary disbale-btn" disabled>
+          Check Out Your Food
+        </button>
+      </div>
     </div>
   );
 };

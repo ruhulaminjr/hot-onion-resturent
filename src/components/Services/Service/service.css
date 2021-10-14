@@ -1,0 +1,30 @@
+.service-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.service-item {
+  padding: 1rem;
+}
+.service-desc {
+  padding: 1rem 3rem;
+}
+
+.service-desc p {
+  margin-bottom: 10px;
+}
+.service-desc button {
+  font-size: 1rem;
+  color: blue;
+  opacity: 0.8;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.service {
+  transition: 0.4s;
+}
+.service:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

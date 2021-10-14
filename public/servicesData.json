@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "name": "Fast Delevery",
+    "desc": "which turned in a time nearly five minutes faster than the rest of the competition: DoorDash had an average delivery time of 42 minutes, 1 second.",
+    "img": "https://i.ibb.co/jM8N4Td/adult-blur-blurred-background-687824.png",
+    "icon": "https://i.ibb.co/mb4Nmzc/Group-204.png"
+  },
+  {
+    "id": 256,
+    "name": "A Good Auto Responder",
+    "desc": "which turned in a time nearly five minutes faster than the rest of the competition: DoorDash had an average delivery time of 42 minutes, 1 second.",
+    "img": "https://i.ibb.co/X4YTgm4/chef-cook-food-33614.png",
+    "icon": "https://i.ibb.co/GJD8gFc/Group-1133.png"
+  },
+  {
+    "id": 456,
+    "name": "Home Delivery",
+    "desc": "which turned in a time nearly five minutes faster than the rest of the competition:12 seconds. DoorDash had an average delivery time of 42 minutes, 1 second.",
+    "img": "https://i.ibb.co/3sDFgjB/architecture-building-city-2047397.png",
+    "icon": "https://i.ibb.co/LJqx2w2/Group-245.png"
+  }
+]
