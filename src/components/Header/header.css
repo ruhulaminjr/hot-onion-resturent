@@ -4,3 +4,19 @@
   display: flex;
   justify-content: space-between;
 }
+img {
+  max-width: 100%;
+}
+.logo {
+  width: 150px;
+}
+.cart-img {
+  width: 30px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}

@@ -1,0 +1,42 @@
+.hero-container {
+  height: 50vh;
+  width: 100vw;
+  background-color: #fcf4e0;
+  background-image: url("./../../images/bannerbackground.png");
+  background-position: center;
+  background-size: cover;
+}
+.hero-content {
+  width: 50%;
+}
+.hero-search {
+  text-align: center;
+}
+.big-title {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #191919;
+}
+.hero-search {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-search input {
+  width: 50%;
+  padding: 1rem 2rem;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  background: white;
+  border-radius: 20px;
+}
+.search-btn {
+  padding: 0.9rem 2rem;
+  margin-left: -50px;
+  font-size: 16px;
+  border-radius: 30px;
+}

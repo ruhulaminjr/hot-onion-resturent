@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import ProvderAuth from "./context/ProvderAuth";
 import "./App.css";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
+          <Route path="/" exact>
+            <Home/>
+             </Route>
           <Route path="*">
             <NotFound />
           </Route>

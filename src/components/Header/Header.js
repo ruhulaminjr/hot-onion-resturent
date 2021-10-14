@@ -5,16 +5,20 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="nav-menu">
-      <div className="logo">
-        <img src={logo} alt="" />
-      </div>
-      <div className="nav-item">
-        <div className="cart">
-          <button className="cart-btn"><img src={cartIcon} alt="" /></button>
+    <div className="container">
+      <div className="nav-menu">
+        <div className="logo">
+          <img src={logo} alt="" />
         </div>
-        <button>Login</button>
-        <button className="btn-rounded">Sign Up</button>
+        <div className="nav-item">
+          <div className="cart">
+            <button className="cart-btn">
+              <img src={cartIcon} alt="" className="cart-img" />
+            </button>
+          </div>
+          <button style={{ color: "#191919", fontSize: "16px" }}>Login</button>
+          <button className="btn-rounded">Sign Up</button>
+        </div>
       </div>
     </div>
   );
