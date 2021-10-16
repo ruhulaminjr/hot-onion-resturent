@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import useFoods from "../../hooks/useFoods";
 import "./food.css";
 import SingleFood from "./singleFood/SingleFood";
@@ -12,10 +12,6 @@ const Foods = () => {
     setShowFoods(filterdFood);
     setFoodClass(value);
   };
-  useEffect(() => {
-    const filterdFood = foods.filter((food) => food.category === "lunch");
-    console.log(filterdFood);
-  }, []);
   return (
     <div className="container">
       <div className="food-list">

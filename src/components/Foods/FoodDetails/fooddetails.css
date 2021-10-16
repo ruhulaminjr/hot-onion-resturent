@@ -1,0 +1,37 @@
+.food-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem 0;
+  padding: 1rem 2rem;
+}
+.food-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.food-text p {
+  max-width: 80%;
+}
+.food-price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quantity {
+  display: flex;
+  padding: 0.3rem 1rem;
+  border: 1px solid rgb(77, 74, 74);
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.quantity span {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.food-images {
+  display: flex;
+  gap: 1.5rem;
+}

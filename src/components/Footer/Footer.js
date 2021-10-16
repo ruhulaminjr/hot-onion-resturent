@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p style={{ textAlign: "center", color: "gray" ,marginTop:"2rem"}}>
+        <p style={{ textAlign: "center", color: "gray", marginTop: "2rem" }}>
           Copyright &copy 2021 Online Food
         </p>
       </div>

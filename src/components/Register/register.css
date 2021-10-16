@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.input-field {
+  padding: 0.8rem 1.5rem;
+  background: rgb(230, 230, 230);
+  border: none;
+  outline: none;
+  color: rgb(32, 32, 32);
+  font-size: 1rem;
+  width: 300px;
+}
+.w100 {
+  height: 65vh;
+}
